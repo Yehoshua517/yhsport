@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue';
+import wb_portfolio from '@/assets/portfolio.png';
 import wb_sirius from '@/assets/sirius.jpg';
 import wb_klassrum from '@/assets/klassrum.jpg';
 import mb_dactest from '@/assets/mobile.jpg';
@@ -13,7 +14,7 @@ const Projects = ref([
     {
         id: 1,
         category: 'WEB',
-        image: '/src/assets/portfolio.png',
+        image: wb_portfolio,
         title: 'Portfolio professionnel (v1)',
         description: 'Portfolio professionnel réalisé avec react.js et tailwindcss. Il est responsive et facilement personnalisable. Plus maintenue.',
         technologies: ['React.js', 'Tailwindcss'],
