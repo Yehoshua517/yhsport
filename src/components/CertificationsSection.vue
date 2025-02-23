@@ -9,6 +9,20 @@ const certifications = ref([
         img: 'src/assets/efset.png',
         url: 'https://bit.ly/46ex9yH'
     },
+    {
+        id: 2,
+        name: 'TOGO FIBER OPTICS UPTAKE PREDICTION CHALLENGE',
+        description: '23 juin 2024',
+        img: 'src/assets/zindi.png',
+        url: 'https://bit.ly/3y5AIKQ'
+    },
+    {
+        id: 3,
+        name: 'Les bases de PYTHON sur HACKER RANK',
+        description: '03 juillet 2024',
+        img: 'src/assets/hacker.png',
+        url: 'https://bit.ly/4673SG2'
+    },
     // {
     //     id: 2,
     //     name: 'Certification 2',
@@ -16,20 +30,6 @@ const certifications = ref([
     //     img: 'src/assets/reply.png',
     //     url: 'https://bit.ly/4f59pAX'
     // },
-    {
-        id: 3,
-        name: 'TOGO FIBER OPTICS UPTAKE PREDICTION CHALLENGE',
-        description: '23 juin 2024',
-        img: 'src/assets/zindi.png',
-        url: 'https://bit.ly/3y5AIKQ'
-    },
-    {
-        id: 4,
-        name: 'Les bases de PYTHON sur HACKER RANK',
-        description: '03 juillet 2024',
-        img: 'src/assets/hacker.png',
-        url: 'https://bit.ly/4673SG2'
-    }
 ])
 </script>
 

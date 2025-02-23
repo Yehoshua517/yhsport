@@ -65,7 +65,7 @@ const Projects = ref([
     {
         id: 6,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ml_credits.jpg',
+        image: 'src/assets/ml_credits.jpeg',
         title: 'PREDICTION DE L\'APPROBATION DES CARTES DE CRÉDIT',
         description: 'Développer un modèle de machine learning pour prédire l’approbation de crédit d’un client en fonction de ses informations personnelles.',
         technologies: ['Python', 'ML', 'Supervised learning'],
