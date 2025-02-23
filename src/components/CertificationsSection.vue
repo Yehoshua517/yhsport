@@ -1,26 +1,29 @@
 <script setup>
 import { ref } from 'vue'
+import efset from '@/assets/efset.png'
+import zindi from '@/assets/zindi.png'
+import hacker from '@/assets/hacker.png'
 
 const certifications = ref([
     {
         id: 1,
         name: 'Test de niveau d\'anglais',
         description: '15 juillet 2024',
-        img: '/src/assets/efset.png',
+        img: efset,
         url: 'https://bit.ly/46ex9yH'
     },
     {
         id: 2,
         name: 'TOGO FIBER OPTICS UPTAKE PREDICTION CHALLENGE',
         description: '23 juin 2024',
-        img: '/src/assets/zindi.png',
+        img: zindi,
         url: 'https://bit.ly/3y5AIKQ'
     },
     {
         id: 3,
         name: 'Les bases de PYTHON sur HACKER RANK',
         description: '03 juillet 2024',
-        img: '/src/assets/hacker.png',
+        img: hacker,
         url: 'https://bit.ly/4673SG2'
     },
 ])
