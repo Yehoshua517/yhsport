@@ -21,12 +21,6 @@
         },
         {
             id: 4,
-            icon: 'https://img.icons8.com/ios-filled/100/ffffff/web-design.png',
-            name: 'DESIGN UI/UX',
-            description: 'Concevez des interfaces web élégantes et fonctionnelles pour une navigation fluide et agréable.'
-        },
-        {
-            id: 5,
             icon: 'https://img.icons8.com/ios-filled/100/ffffff/artificial-intelligence.png',
             name: 'INTELLIGENCE ARTIFICIELLE',
             description: 'Développez des solutions d\'IA sur mesure pour automatiser vos processus, analyser des données et prendre des décisions intelligentes.'

@@ -41,10 +41,10 @@ const education = ref([
                     <div v-for="element in education" :key="element.id"
                     class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
                     >
-                        <div class="w-1/4">
+                        <div class="w-1/4 flex items-center justify-center">
                             <img src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png" alt="graduation-cap--v1">
                         </div>
-                        <div class="w-3/4 pl-4">
+                        <div class="w-3/4 py-8">
                             <h3 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary lg:text-xl">
                                 {{ element.School }}
                             </h3>
@@ -65,19 +65,19 @@ const education = ref([
                     la conception d'applications mobiles, ou l'intelligence artificielle, j'aime transformer des idées en réalité 
                     et résoudre des problèmes complexes grâce à la puissance du code et de la créativité.
                 </p>
-                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
+                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8 items-center mx-auto">
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+1</h3>
                         <p class="text-sm sm:text-base text-gray-300">Avis positifs</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+10</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
                         <p class="text-sm sm:text-base text-gray-300">Projets</p>
                     </div>
 
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+7</h3>
-                        <p class="text-sm sm:text-base text-gray-300"> Année(s) d'Expérience</p>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+4</h3>
+                        <p class="text-sm sm:text-base text-gray-300"> Ans d'expérience</p>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,12 @@
 - [ ] Implement SEO best practices
-- [ ] Minify CSS and JavaScript files
 - [ ] Set up Google Analytics
+- [ ] Set up Google Translate
+- [ ] Update services, projects
 - [ ] Create a sitemap.xml
 - [ ] Verify the website's performance using tools like Lighthouse
-- [ ] Deploy to the production server
 - [ ] Modern website which survives to time
+- [ ] Add light time
+- [ ] Add privacy policy
+
+-----------------------------------------------
+- [x] Deploy to the production server
