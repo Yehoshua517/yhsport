@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Alias the `@` to `/src`
-      '@': fileURLToPath(new URL('./src/', import.meta.url)) // new URL('./src/', import.meta.url).pathname,
+      '@': new URL('./src/', import.meta.url).pathname,
     },
   },
 });
