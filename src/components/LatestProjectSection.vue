@@ -1,5 +1,13 @@
 <script setup>
 import { ref, computed } from 'vue';
+import wb_sirius from '@/assets/sirius.jpg';
+import wb_klassrum from '@/assets/klassrum.jpg';
+import mb_dactest from '@/assets/mobile.jpg';
+import wb_memo from '@/assets/memo.png';
+import ds_fiber from '@/assets/ml_fiber.jpg';
+import ds_credits from '@/assets/ml_credits.jpeg';
+import ds_crimes from '@/assets/ml_crimes.jpg';
+import ds_energy from '@/assets/ml_energy.jpeg'; 
 
 const Projects = ref([
     {
@@ -13,9 +21,9 @@ const Projects = ref([
         webURL: 'https://jack517.vercel.app/'
     },
     {
-        id: 3,
+        id: 2,
         category: 'WEB',
-        image: '/src/assets/sirius.jpg',
+        image: wb_sirius,
         title: 'Sirius - Visioconférence',
         description: 'Sirius est une application de visioconférence qui permet de créer des salles de réunion virtuelles et d\'y inviter des participants.',
         technologies: ['react.js', 'tailwindcss'],
@@ -25,7 +33,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'WEB',
-        image: '/src/assets/klassrum.jpg',
+        image: wb_klassrum,
         title: 'API Klassrum',
         description: 'API RESTful pour une application de gestion de salles de classe. Elle permet de gérer les salles, les cours et les étudiants.',
         technologies: ['Express', 'Node.js'],
@@ -35,7 +43,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'MOBILE',
-        image: '/src/assets/mobile.jpeg',
+        image: mb_dactest,
         title: 'DacTest',
         description: 'DacTest est une mini-application mobile de networking. Elle permet de mettre en relation des profils d\'utilisateurs d\'un même secteur.',
         technologies: ['SQFlite', 'BLoC', 'Flutter'],
@@ -45,7 +53,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'WEB',
-        image: '/src/assets/memo.png',
+        image: wb_memo,
         title: 'FlashMemo (Extension Edge)',
         description: 'FlashMemo est une extension web qui vous permet de sauvegarder vos notes et les retrouver facilement en un click. Simple, rapide et efficace.',
         technologies: ['react.js', 'tailwindcss'],
@@ -55,7 +63,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'DATA SCIENCE',
-        image: '/src/assets/ml_fiber.jpg',
+        image: ds_fiber,
         title: 'TOGO FIBER OPTICS UPTAKE PREDICTION',
         description: 'Développer une solution de machine learning pour prédire l’adoption de la fibre optique à domicile (FTTH) dans différentes régions du Togo.',
         technologies: ['Python', 'Mosaiks'],
@@ -65,7 +73,7 @@ const Projects = ref([
     {
         id: 6,
         category: 'DATA SCIENCE',
-        image: '/src/assets/ml_credits.jpeg',
+        image: ds_credits,
         title: 'PREDICTION DE L\'APPROBATION DES CARTES DE CRÉDIT',
         description: 'Développer un modèle de machine learning pour prédire l’approbation de crédit d’un client en fonction de ses informations personnelles.',
         technologies: ['Python', 'ML', 'Supervised learning'],
@@ -75,7 +83,7 @@ const Projects = ref([
     {
         id: 7,
         category: 'DATA SCIENCE',
-        image: '/src/assets/ml_crimes.jpg',
+        image: ds_crimes,
         title: 'ANALYSE DES CRIMES A LOS ANGELES',
         description: 'Analyser les données des crimes à Los Angeles pour en extraire des informations utiles et les visualiser sous forme de graphiques.',
         technologies: ['Python', 'ML', 'Unsupervised learning'],
@@ -85,7 +93,7 @@ const Projects = ref([
     {
         id: 8,
         category: 'DATA SCIENCE',
-        image: '/src/assets/ml_energy.jpeg',
+        image: ds_energy,
         title: 'PREDICTION DE LA CONSOMMATION D\'ENERGIE',
         description: 'Développer une solution de machine learning pour prédire la consommation d\'énergie d\'un bâtiment en fonction de ses caractéristiques.',
         technologies: ['R', 'ML'],
