@@ -12,6 +12,7 @@ const ContactSection = defineAsyncComponent(() => import('@/components/ContactSe
 const TestimonialsSection = defineAsyncComponent(() => import('@/components/TestimonialsSection.vue'));
 const Footer = defineAsyncComponent(() => import('@/components/Footer.vue'));
 const BackToTop = defineAsyncComponent(() => import('@/components/BackToTop.vue'));
+const CertificationsSection = defineAsyncComponent(() => import('@/components/CertificationsSection.vue'));
 </script>
 
 <template>
@@ -26,6 +27,7 @@ const BackToTop = defineAsyncComponent(() => import('@/components/BackToTop.vue'
                     <ServicesSection />
                     <AboutSection />
                     <ExperienceAndSkills />
+                    <CertificationsSection />
                     <LatestProjectSection />
                     <ContactSection />
                     <TestimonialsSection />

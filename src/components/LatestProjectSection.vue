@@ -55,12 +55,42 @@ const Projects = ref([
     {
         id: 5,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ia.jpg',
+        image: 'src/assets/ml_fiber.jpg',
         title: 'TOGO FIBER OPTICS UPTAKE PREDICTION',
         description: 'Développer une solution de machine learning pour prédire l’adoption de la fibre optique à domicile (FTTH) dans différentes régions du Togo.',
         technologies: ['Python', 'Mosaiks'],
         gitURL: '',
         webURL: 'https://www.kaggle.com/code/aaaml007/zindi-tg-ftth-solution-by-yehoshua'
+    },
+    {
+        id: 6,
+        category: 'DATA SCIENCE',
+        image: 'src/assets/ml_credits.jpg',
+        title: 'PREDICTION DE L\'APPROBATION DES CARTES DE CRÉDIT',
+        description: 'Développer un modèle de machine learning pour prédire l’approbation de crédit d’un client en fonction de ses informations personnelles.',
+        technologies: ['Python', 'ML', 'Supervised learning'],
+        gitURL: '',
+        webURL: 'https://www.datacamp.com/datalab/w/7fad976b-4281-4950-b0c1-a76d705574f3/edit'
+    },
+    {
+        id: 7,
+        category: 'DATA SCIENCE',
+        image: 'src/assets/ml_crimes.jpg',
+        title: 'ANALYSE DES CRIMES A LOS ANGELES',
+        description: 'Analyser les données des crimes à Los Angeles pour en extraire des informations utiles et les visualiser sous forme de graphiques.',
+        technologies: ['Python', 'ML', 'Unsupervised learning'],
+        gitURL: '',
+        webURL: 'https://www.datacamp.com/datalab/w/a921b278-0eaf-4406-b5f1-cc595b5a2061/edit'
+    },
+    {
+        id: 8,
+        category: 'DATA SCIENCE',
+        image: 'src/assets/ml_energy.jpeg',
+        title: 'PREDICTION DE LA CONSOMMATION D\'ENERGIE',
+        description: 'Développer une solution de machine learning pour prédire la consommation d\'énergie d\'un bâtiment en fonction de ses caractéristiques.',
+        technologies: ['R', 'ML'],
+        gitURL: '',
+        webURL: 'https://www.datacamp.com/datalab/w/70d22f5f-85ed-44da-a03f-404fe7dab5e1/edit'
     }
 ]);
 

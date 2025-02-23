@@ -5,6 +5,7 @@ const Menu = ref([
     {name: 'Services', href: '#services'},
     {name: 'À propos', href: '#about'},
     {name: 'Compétences', href: '#skills'},
+    {name: 'Certifications', href: '#certifications'},
     {name: 'Projets', href: '#projects'},
     {name: 'Avis', href: '#testimonials'},
     {name: 'Contact', href: '#contact'},
