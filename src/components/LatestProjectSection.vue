@@ -5,7 +5,7 @@ const Projects = ref([
     {
         id: 1,
         category: 'WEB',
-        image: 'src/assets/portfolio.png',
+        image: '/src/assets/portfolio.png',
         title: 'Portfolio professionnel (v1)',
         description: 'Portfolio professionnel réalisé avec react.js et tailwindcss. Il est responsive et facilement personnalisable. Plus maintenue.',
         technologies: ['React.js', 'Tailwindcss'],
@@ -15,7 +15,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'WEB',
-        image: 'src/assets/sirius.jpg',
+        image: '/src/assets/sirius.jpg',
         title: 'Sirius - Visioconférence',
         description: 'Sirius est une application de visioconférence qui permet de créer des salles de réunion virtuelles et d\'y inviter des participants.',
         technologies: ['react.js', 'tailwindcss'],
@@ -25,7 +25,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'WEB',
-        image: 'src/assets/klassrum.jpg',
+        image: '/src/assets/klassrum.jpg',
         title: 'API Klassrum',
         description: 'API RESTful pour une application de gestion de salles de classe. Elle permet de gérer les salles, les cours et les étudiants.',
         technologies: ['Express', 'Node.js'],
@@ -35,7 +35,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'MOBILE',
-        image: 'src/assets/mobile.jpeg',
+        image: '/src/assets/mobile.jpeg',
         title: 'DacTest',
         description: 'DacTest est une mini-application mobile de networking. Elle permet de mettre en relation des profils d\'utilisateurs d\'un même secteur.',
         technologies: ['SQFlite', 'BLoC', 'Flutter'],
@@ -45,7 +45,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'WEB',
-        image: 'src/assets/memo.png',
+        image: '/src/assets/memo.png',
         title: 'FlashMemo (Extension Edge)',
         description: 'FlashMemo est une extension web qui vous permet de sauvegarder vos notes et les retrouver facilement en un click. Simple, rapide et efficace.',
         technologies: ['react.js', 'tailwindcss'],
@@ -55,7 +55,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ml_fiber.jpg',
+        image: '/src/assets/ml_fiber.jpg',
         title: 'TOGO FIBER OPTICS UPTAKE PREDICTION',
         description: 'Développer une solution de machine learning pour prédire l’adoption de la fibre optique à domicile (FTTH) dans différentes régions du Togo.',
         technologies: ['Python', 'Mosaiks'],
@@ -65,7 +65,7 @@ const Projects = ref([
     {
         id: 6,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ml_credits.jpeg',
+        image: '/src/assets/ml_credits.jpeg',
         title: 'PREDICTION DE L\'APPROBATION DES CARTES DE CRÉDIT',
         description: 'Développer un modèle de machine learning pour prédire l’approbation de crédit d’un client en fonction de ses informations personnelles.',
         technologies: ['Python', 'ML', 'Supervised learning'],
@@ -75,7 +75,7 @@ const Projects = ref([
     {
         id: 7,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ml_crimes.jpg',
+        image: '/src/assets/ml_crimes.jpg',
         title: 'ANALYSE DES CRIMES A LOS ANGELES',
         description: 'Analyser les données des crimes à Los Angeles pour en extraire des informations utiles et les visualiser sous forme de graphiques.',
         technologies: ['Python', 'ML', 'Unsupervised learning'],
@@ -85,7 +85,7 @@ const Projects = ref([
     {
         id: 8,
         category: 'DATA SCIENCE',
-        image: 'src/assets/ml_energy.jpeg',
+        image: '/src/assets/ml_energy.jpeg',
         title: 'PREDICTION DE LA CONSOMMATION D\'ENERGIE',
         description: 'Développer une solution de machine learning pour prédire la consommation d\'énergie d\'un bâtiment en fonction de ses caractéristiques.',
         technologies: ['R', 'ML'],

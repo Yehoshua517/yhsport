@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      // Alias the `@` to `/src`
-      '@': fileURLToPath(new URL('./src/', import.meta.url)) // new URL('./src/', import.meta.url).pathname,
+      // Alias the @ to /src
+      '@': fileURLToPath(new URL('./src/', import.meta.url)),
     },
   },
 });
