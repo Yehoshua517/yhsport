@@ -4,25 +4,25 @@ import { ref } from 'vue';
 const education = ref([
     {
         id:1,
-        School:'Ecole Polytechnique de Lome (UL)',
+        School:'EPL UL',
         program:'Génie Logiciel',
         year:'2021 – 2024'
     },
     {
         id:2,
-        School:'Notre Dame de L’église (IS)',
+        School:'IS NDE',
         program:'Série scientifique (C4)',
         year:'2017 – 2021'
     },
     {
         id:3,
-        School:'Abel (GS)',
+        School:'GS ABEL',
         program:'Collège',
         year:'2013 – 2017'
     },
     {
         id:4,
-        School:'San Francisco',
+        School:'SAN FRANCISCO',
         program:'Primaire',
         year:'2007 – 2013'
     }
@@ -65,19 +65,19 @@ const education = ref([
                     la conception d'applications mobiles, ou l'intelligence artificielle, j'aime transformer des idées en réalité 
                     et résoudre des problèmes complexes grâce à la puissance du code et de la créativité.
                 </p>
-                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8 items-center mx-auto">
-                    <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+                <div class="grid grid-cols-2 gap-4 max-w-lg pt-8 items-center mx-auto">
+                    <!-- <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
                         <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+1</h3>
                         <p class="text-sm sm:text-base text-gray-300">Avis positifs</p>
-                    </div>
+                    </div> -->
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+5</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+ 5</h3>
                         <p class="text-sm sm:text-base text-gray-300">Projets</p>
                     </div>
 
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+4</h3>
-                        <p class="text-sm sm:text-base text-gray-300"> Ans d'expérience</p>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+ 3</h3>
+                        <p class="text-sm sm:text-base text-gray-300"> ans d'expérience</p>
                     </div>
                 </div>
             </div>

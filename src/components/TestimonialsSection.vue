@@ -21,15 +21,12 @@ const breakpoints =ref({
     }
 })
 
-/**
- * {
+const testimonials=ref([{
         id:1,
-        fullName:'client 1',
+        fullName:'Jak',
         image:'src/assets/image.png',
-        comment:'molestiae optio, voluptatibus iusto eos doloremque consectetur!'
-    },
- */
-const testimonials=ref([])
+        comment:'Que du beau travail 😀'
+    }])
 </script>
 
 <template>

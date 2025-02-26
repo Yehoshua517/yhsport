@@ -1,9 +1,8 @@
 <script setup>
 import { ref, computed } from 'vue';
-import wb_portfolio from '@/assets/portfolio.png';
-import wb_sirius from '@/assets/sirius.jpg';
+import wb_yhsmovies from '@/assets/react_movie_app.png';
 import wb_klassrum from '@/assets/klassrum.jpg';
-import mb_dactest from '@/assets/mobile.jpg';
+import mb_dactest from '@/assets/project.png';
 import wb_memo from '@/assets/memo.png';
 import ds_fiber from '@/assets/ml_fiber.jpg';
 import ds_credits from '@/assets/ml_credits.jpeg';
@@ -14,39 +13,39 @@ const Projects = ref([
     {
         id: 1,
         category: 'WEB',
-        image: wb_portfolio,
-        title: 'Portfolio professionnel (v1)',
-        description: 'Portfolio professionnel réalisé avec react.js et tailwindcss. Il est responsive et facilement personnalisable. Plus maintenue.',
-        technologies: ['React.js', 'Tailwindcss'],
-        gitURL: 'https://github.com/Yehoshua517/jack-portfolio-517',
-        webURL: 'https://jack517.vercel.app/'
-    },
-    {
-        id: 2,
-        category: 'WEB',
-        image: wb_sirius,
-        title: 'Sirius - Visioconférence',
-        description: 'Sirius est une application de visioconférence qui permet de créer des salles de réunion virtuelles et d\'y inviter des participants.',
+        image: wb_yhsmovies,
+        title: 'Y\'Movies',
+        description: 'Y\'Movies est une application web permettant de rechercher et de visualiser des informations sur les films avec une expérience utilisateur optimale.',
         technologies: ['react.js', 'tailwindcss'],
         gitURL: 'https://github.com/Yehoshua517/sirius-frontend',
         webURL: 'https://sirius-ftd.vercel.app/'
     },
     {
+        id: 2,
+        category: 'DATA SCIENCE',
+        image: ds_fiber,
+        title: 'FTTH IA CHALLENGE 2024',
+        description: 'Développer une solution de machine learning pour prédire l’adoption de la fibre optique à domicile (FTTH) dans différentes régions du Togo.',
+        technologies: ['Python', 'Mosaiks'],
+        gitURL: '',
+        webURL: 'https://www.kaggle.com/code/aaaml007/zindi-tg-ftth-solution-by-yehoshua'
+    },
+    {
         id: 3,
-        category: 'WEB',
-        image: wb_klassrum,
-        title: 'API Klassrum',
-        description: 'API RESTful pour une application de gestion de salles de classe. Elle permet de gérer les salles, les cours et les étudiants.',
-        technologies: ['Express', 'Node.js'],
-        gitURL: 'https://github.com/Yehoshua517/klassrum_backend',
-        webURL: 'https://klassrum.onrender.com/'
+        category: 'DATA SCIENCE',
+        image: ds_credits,
+        title: 'APPROBATION DES CARTES',
+        description: 'Développer un modèle de machine learning pour prédire l’approbation d\'une carte de crédit d’un client en fonction de ses informations personnelles.',
+        technologies: ['Python', 'ML', 'Supervised learning'],
+        gitURL: '',
+        webURL: 'https://www.datacamp.com/datalab/w/7fad976b-4281-4950-b0c1-a76d705574f3/edit'
     },
     {
         id: 4,
         category: 'MOBILE',
         image: mb_dactest,
         title: 'DacTest',
-        description: 'DacTest est une mini-application mobile de networking. Elle permet de mettre en relation des profils d\'utilisateurs d\'un même secteur.',
+        description: 'DacTest est une mini-application mobile de networking. Elle permet de mettre en relation des profils d\'utilisateurs d\'un même secteur d\'activité',
         technologies: ['SQFlite', 'BLoC', 'Flutter'],
         gitURL: 'https://github.com/Yehoshua517/DacTest',
         webURL: ''
@@ -54,53 +53,43 @@ const Projects = ref([
     {
         id: 5,
         category: 'WEB',
-        image: wb_memo,
-        title: 'FlashMemo (Extension Edge)',
-        description: 'FlashMemo est une extension web qui vous permet de sauvegarder vos notes et les retrouver facilement en un click. Simple, rapide et efficace.',
-        technologies: ['react.js', 'tailwindcss'],
-        gitURL: '',
-        webURL: ''
-    },
-    {
-        id: 5,
-        category: 'DATA SCIENCE',
-        image: ds_fiber,
-        title: 'TOGO FIBER OPTICS UPTAKE PREDICTION',
-        description: 'Développer une solution de machine learning pour prédire l’adoption de la fibre optique à domicile (FTTH) dans différentes régions du Togo.',
-        technologies: ['Python', 'Mosaiks'],
-        gitURL: '',
-        webURL: 'https://www.kaggle.com/code/aaaml007/zindi-tg-ftth-solution-by-yehoshua'
+        image: wb_klassrum,
+        title: 'API Klassrum',
+        description: 'l\'API RESTful de Klassrum est une API pour une application de gestion de salles de classe. Elle permet de gérer les salles, les séances de cours et les étudiants.',
+        technologies: ['Express/Node.js', 'MongoDB', '50%'],
+        gitURL: 'https://github.com/Yehoshua517/klassrum_backend',
+        webURL: 'https://klassrum.onrender.com/'
     },
     {
         id: 6,
-        category: 'DATA SCIENCE',
-        image: ds_credits,
-        title: 'PREDICTION DE L\'APPROBATION DES CARTES DE CRÉDIT',
-        description: 'Développer un modèle de machine learning pour prédire l’approbation de crédit d’un client en fonction de ses informations personnelles.',
-        technologies: ['Python', 'ML', 'Supervised learning'],
+        category: 'WEB',
+        image: wb_memo,
+        title: 'FlashMemo Edge',
+        description: 'FlashMemo est une extension web qui vous permet de sauvegarder vos notes et les retrouver facilement en un click. Simple, rapide et efficace.',
+        technologies: ['Javascript', 'styled-components'],
         gitURL: '',
-        webURL: 'https://www.datacamp.com/datalab/w/7fad976b-4281-4950-b0c1-a76d705574f3/edit'
+        webURL: ''
     },
-    {
-        id: 7,
-        category: 'DATA SCIENCE',
-        image: ds_crimes,
-        title: 'ANALYSE DES CRIMES A LOS ANGELES',
-        description: 'Analyser les données des crimes à Los Angeles pour en extraire des informations utiles et les visualiser sous forme de graphiques.',
-        technologies: ['Python', 'ML', 'Unsupervised learning'],
-        gitURL: '',
-        webURL: 'https://www.datacamp.com/datalab/w/a921b278-0eaf-4406-b5f1-cc595b5a2061/edit'
-    },
-    {
-        id: 8,
-        category: 'DATA SCIENCE',
-        image: ds_energy,
-        title: 'PREDICTION DE LA CONSOMMATION D\'ENERGIE',
-        description: 'Développer une solution de machine learning pour prédire la consommation d\'énergie d\'un bâtiment en fonction de ses caractéristiques.',
-        technologies: ['R', 'ML'],
-        gitURL: '',
-        webURL: 'https://www.datacamp.com/datalab/w/70d22f5f-85ed-44da-a03f-404fe7dab5e1/edit'
-    }
+    // {
+    //     id: 7,
+    //     category: 'DATA SCIENCE',
+    //     image: ds_crimes,
+    //     title: 'ANALYSE DES CRIMES A LOS ANGELES',
+    //     description: 'Analyser les données des crimes à Los Angeles pour en extraire des informations utiles et les visualiser sous forme de graphiques.',
+    //     technologies: ['Python', 'Unsupervised learning'],
+    //     gitURL: '',
+    //     webURL: 'https://www.datacamp.com/datalab/w/a921b278-0eaf-4406-b5f1-cc595b5a2061/edit'
+    // },
+    // {
+    //     id: 8,
+    //     category: 'DATA SCIENCE',
+    //     image: ds_energy,
+    //     title: 'PREDICTION DE LA CONSOMMATION D\'ENERGIE',
+    //     description: 'Développer une solution de machine learning pour prédire la consommation d\'énergie d\'un bâtiment en fonction de ses caractéristiques.',
+    //     technologies: ['R', 'ML'],
+    //     gitURL: '',
+    //     webURL: 'https://www.datacamp.com/datalab/w/70d22f5f-85ed-44da-a03f-404fe7dab5e1/edit'
+    // }
 ]);
 
 const selectedCategory = ref('ALL');
