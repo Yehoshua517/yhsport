@@ -49,7 +49,7 @@ AOS.init()
                       </svg>
                       <div class="download-loader text-white hidden"></div>
                   </div>
-                  <a href="/Josue_Ayitey_CV_2025_FR.pdf" download="Josue_Ayitey_CV_2025.pdf" class="pl-2 text-primary"> Mon CV</a>
+                  <a href="./../assets/Josue_Ayitey_CV_2025_FR.pdf" download="Josue_Ayitey_CV_2025.pdf" class="pl-2 text-primary"> Mon CV</a>
                   </div>
               </button>
           </div>
